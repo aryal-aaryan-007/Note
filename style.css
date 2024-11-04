@@ -1,0 +1,251 @@
+* {
+    margin: 0px;
+
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.nav {
+    height: 50px;
+    background-color: green;
+    margin-top: 20px;
+
+}
+
+.note_img {
+    height: 50px;
+    display: flex;
+    margin-left: 30px;
+}
+
+.note_text {
+    font-weight: 700;
+    display: inline-block;
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 90px;
+    font-family: cursive;
+}
+
+.profile_img {
+    height: 50px;
+    margin-left: 80%;
+}
+
+.note_btn_box {
+    margin-left: 70px;
+    margin-top: 20px;
+
+}
+
+.make_note_img {
+    height: 31px;
+    width: 45px;
+    padding-right: 10px;
+    padding-left: -15px;
+}
+
+.input_topic,
+.input_context {
+    width: 550px;
+    border-radius: 0px;
+    background-color: rgb(32, 31, 31);
+    border: 0px solid white;
+    border-radius: 7px;
+    align-items: start;
+    color: white;
+    font-family: cursive;
+
+
+}
+
+.input_topic {
+    display: inline-block;
+    height: 94px;
+    padding-left: 10px;
+    border-bottom: 0px;
+    font-size: 25px;
+    position: relative;
+    z-index: 10;
+}
+
+.input_context {
+    display: inline-block;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 23px;
+}
+
+.input_topic,
+.input_context::placeholder {
+    padding: 10px;
+}
+
+.container_div {
+
+    height: 305px;
+    background-color: black;
+    width: 555px;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 70px;
+    border: 3px solid white;
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    z-index: 9
+}
+
+.input_context:hover {
+    position: relative;
+    margin-top: -20px;
+    transition: 0.50s;
+    border: 2px solid white;
+    border-radius: 8px;
+    height: 225px;
+    z-index: 11;
+}
+
+.input_topic:hover {
+    height: 98px;
+    transition: 0.50s;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+.save_inp_img {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 81%;
+    left: 67%;
+    z-index: 12;
+}
+
+.remove_inp_img {
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    z-index: 12;
+}
+
+/*save gareko aaba milako*/
+/*
+.save_container {
+    height: 100px;
+    width: 50px;
+    border-radius: 0px;
+    background-color: rgb(32, 31, 31);
+    border: 0px solid white;
+    border-radius: 7px;
+    color: white;
+    font-family: cursive;
+    border-bottom: 0px;
+    font-size: 27px;
+    margin-left: 59%;
+    transition: 0.1s;
+}
+
+.input_topic_save {
+    height: 0px;
+    width: 50px;
+    background-color: rgb(32, 31, 31);
+    border: 0px solid white;
+    border-radius: 7px;
+    color: white;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.save_container:hover {
+    height: 305px;
+    background-color: black;
+    width: 555px;
+    padding: 0px;
+    margin-left: 59%;
+    border: 3px solid white;
+    border-radius: 10px;
+    transition: 0.57s;
+
+}
+    */
+.save_container {
+    height: 92px;
+    width: 395px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid white;
+    border-radius: 7px;
+    color: white;
+    font-family: cursive;
+    margin-left: 63%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.input_context_save,
+.input_topic_save {
+    width: 390px;
+    background-color: rgb(32, 31, 31);
+    border-radius: 9px;
+    color: white;
+    display: inline-block;
+}
+
+.input_topic_save {
+    height: 87px;
+    font-size: 22px;
+}
+
+.input_context_save {
+    height: 160px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    visibility: hidden;
+}
+
+.input_context_save:hover {
+    margin-top: -25px;
+    transition: 0.50s;
+    border: 3px solid white;
+    border-radius: 8px;
+    height: 190px;
+}
+
+.input_topic_save:hover {
+    height: 90px;
+    transition: 0.50s;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.save_container:hover {
+    height: 260px;
+    transition: 0.5s;
+}
+
+.saved_inp_img {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 3%;
+    left: 72%;
+}
+
+.removed_inp_img {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 3%;
+    left: 84%;
+}
